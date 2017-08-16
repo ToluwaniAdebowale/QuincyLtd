@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quincyltd.MainActivity"
+    android:background="#e0e0e0">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="500dp"
+        android:layout_height="280dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name: Quincy Ltd"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#9a5067"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: No 2, Alagbaka, Akure ,Ondo State."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/name"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#9a5067"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We create web bots, robots, use AI and deep machine learning to make life easier and less expensive"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/location"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#9a5067"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours of Operation: 8am - 4pm"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/agenda"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#9a5067"
+        android:fontFamily="sans-serif-condensed"/>
+
+</RelativeLayout>
